@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.Articles{
+  
+  display: "grid";
+  grid-template-columns: "auto auto";
+  margin-left: "50px";
+  grid-column-gap: "100px";
+  grid-row-gap: "100px";
+
+}
+#bollywood2{
+  display: grid;
+  grid-template-columns : auto auto ;
+  
+  color : pink;
+  padding: 50px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  font-size: 20px;
+}
+@media (orientation: portrait) {
+  #header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+  }
+  #bollywood{
+    grid-template-columns: auto;
+  }
+  #bollywood2{
+    grid-template-columns: auto;
+  }
+  
+}

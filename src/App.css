@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
-
+#nav{
+  text-decoration: none;
+  color: azure;
+  font-size:x-large;
+  padding: 10px;
+}
+#nav:hover{
+ transform: translateY(-5px);
+ background-color: rgb(226, 59, 159);
+ border-radius: 5px;
+ color: rgb(249, 252, 255);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -45,6 +56,9 @@
   grid-row-gap: "100px";
 
 }
+#onimg:hover{
+transform: translateY(-5px);
+}
 #bollywood2{
   display: grid;
   grid-template-columns : auto auto ;
@@ -55,6 +69,7 @@
   grid-column-gap: 10px;
   font-size: 20px;
 }
+
 @media (orientation: portrait) {
   #header{
     display: flex;

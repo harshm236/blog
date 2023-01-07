@@ -52,6 +52,10 @@ button:focus{
   background-color: aqua;
   /* margin: 15px; */
   background-size: cover;
+  margin-top: 20px;
+}
+#card:hover{
+  transform: translateY(-5px);
 }
 #root2,#root{
   display: flex;
@@ -59,4 +63,18 @@ button:focus{
   justify-content: center;
 }
 
+.Articles{
+  display: "grid";
+  grid-template-columns: "300px 300px";
+  margin-Left: "50px";
+  grid-Column-Gap: "100px";
+  grid-Row-Gap: "100px";
+}
 
+#com{
+  width: 500px;
+  margin-left: 400px;
+  height: 500px;
+  background-color: aqua;
+  content:url(https://www.bhaktiphotos.com/wp-content/uploads/2021/07/Sivan-hd-Images-1080p.jpg);
+}
